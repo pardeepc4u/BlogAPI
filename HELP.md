@@ -1,16 +1,28 @@
-# Getting Started
+# EPAM Blog Services
 
-### Reference Documentation
-For further reference, please consider the following sections:
+## Problem statement 
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.3.2.RELEASE/gradle-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.3.2.RELEASE/gradle-plugin/reference/html/#build-image)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.3.2.RELEASE/reference/htmlsingle/#using-boot-devtools)
-* [Spring Data Reactive MongoDB](https://docs.spring.io/spring-boot/docs/2.3.2.RELEASE/reference/htmlsingle/#boot-features-mongodb)
+Build a REST/JSON-based service (backend only) for blogging
 
-### Additional Links
-These additional references should also help you:
+User should be able to:
 
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
+  ·       Submit a blog post with their name (unique nickhandle), title and content with the publish date
 
+  ·       Update the blog post
+
+  ·       View content posted by other users by their nicks ordered by creation time (newest first)
+
+  ·       Comment on any post in a flat structure.
+
+The project should have at least unit and integration tests. 
+Maybe not thorough test suite, but showing the intention of how it will be tested
+
+Feel free to use and document the assumptions for any uncertainties regarding this task
+
+Expected tech.stack to be used:
+
+  ·       Spring
+
+  ·       Webflux (reactive programming)
+
+  ·       MongoDB
